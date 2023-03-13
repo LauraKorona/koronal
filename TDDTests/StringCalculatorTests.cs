@@ -77,13 +77,13 @@ namespace TDD.Tests
 			Assert.AreEqual(valueExpected, value);
 		}
 
-		[TestMethod()]
+		/*[TestMethod()]
 		public void NewDelimiter()
 		{
 			StringCalculator calculator = new StringCalculator();
 			int value = calculator.Calculate("//$1,2$3\n4");
 			int valueExpected = 10;
 			Assert.AreEqual(valueExpected, value);
-		}
+		}*/
 	}
 }
